@@ -1,0 +1,279 @@
+body{
+    background-color: #A94438;
+}
+
+.mensagem{
+    display: none;
+}
+
+h1, h2{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 10px solid #E6BAA3;
+    background-color: #D24545;
+    border-radius: 30px;
+    text-align: center;
+    color: E4DEBE;
+    font-size: 5vh ;
+}
+
+.cardapio{
+    margin-top: 1%;
+    border: 10px solid #E6BAA3;
+    background-color: #E4DEBE;
+    border-radius: 30px;
+    text-align: center;
+    color: #D24545;
+    font-size: 5vh ;
+}
+
+div.fixed{
+    border: 10px solid #E6BAA3;
+    background-color: #E4DEBE;
+   
+    margin-bottom: 2%;
+    right: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 3px solid #E6BAA3;
+    font-size: 3vh;
+    color: #D24545;
+    margin-top: 50px;
+    padding: 6px;
+    text-align: center;
+
+}
+
+
+.home{
+    border: 10px solid #E6BAA3;
+    background-color: #E4DEBE;
+    border-radius: 30px;
+    text-align: center;
+    color: #D24545;
+    font-size: 6vh ;
+    padding: 3px;
+    margin: 6px;
+}
+
+
+a:hover{
+    text-decoration: none;
+    background-color: E4DEBE;
+    
+}
+
+a:focus{
+    text-decoration: none;
+    
+}
+
+a:link{
+    text-decoration: none;
+ 
+}
+
+a:active{
+    text-decoration: none;
+    
+}
+
+a:visited{
+    text-decoration: none;
+    color: D24545;
+}
+
+a{
+    font-size: 4vh;
+}
+
+.cardapio2{
+    border: 10px solid #E4DEBE;
+    background-color: #D24545;
+    text-align: center;
+    color: #E4DEBE;
+    font-size: 5vh ;
+    position: relative;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 70%;
+    border-radius: 30px;
+    margin: 14%;
+    
+}
+.desc{
+    bottom: 0.5px;
+
+    background-color: chocolate;
+    width: 100%;
+}
+.imagemdesc{
+    border: 1px solid red;
+  
+}
+img{
+    width: 80%;
+}
+.img2{
+    margin: 2%;
+}
+
+div.none{
+    display: none;
+}
+
+
+
+
+@media only screen and (min-width: 1024px){
+
+    body{
+        background-color: A94438;
+    }
+
+    .mensagem{
+        display: none;
+    }
+    h1, h2{
+        margin-left: 10%;
+        margin-right: 10%;
+        border: 10px solid E6BAA3;
+        background-color: D24545;
+        border-radius: 30px;
+        text-align: center;
+        color: E4DEBE;
+        font-size: 8vh ;
+    }
+    
+    .cardapio{
+        margin-top: 1%;
+        border: 10px solid E6BAA3;
+        background-color: E4DEBE;
+        border-radius: 30px;
+        text-align: center;
+        color: D24545;
+        font-size: 5vh ;
+    }
+    
+    div.fixed{
+        border: 10px solid E6BAA3;
+        background-color: E4DEBE;
+       
+        margin-bottom: 2%;
+        right: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+        border: 3px solid E6BAA3;
+        font-size: 3vh;
+        color: D24545;
+        margin-top: 50px;
+        padding: 6px
+    
+    }
+    
+    
+    .home{
+        border: 10px solid E6BAA3;
+        background-color: E4DEBE;
+        border-radius: 30px;
+        text-align: center;
+        color: D24545;
+        font-size: 6vh ;
+        padding: 3px;
+        margin: 6px;
+    }
+    
+    
+    a:hover{
+        text-decoration: none;
+        background-color: #E4DEBE;
+        
+    }
+    
+    a:focus{
+        text-decoration: none;
+        
+    }
+    
+    a:link{
+        text-decoration: none;
+     
+    }
+    
+    a:active{
+        text-decoration: none;
+        
+    }
+    
+    a:visited{
+        text-decoration: none;
+        color: D24545;
+    }
+    
+    a{
+        font-size: 4vh;
+    }
+    
+    .cardapio2{
+        border: 10px solid #E4DEBE;
+        background-color: #D24545;
+        text-align: center;
+        color: #E4DEBE;
+        font-size: 5vh ;
+        position: relative;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 70%;
+        border-radius: 30px;
+        margin: 5%;
+        
+    }
+    .desc{
+        bottom: 0.5px;
+    
+        background-color: chocolate;
+        width: 100%;
+    }
+    .imagemdesc{
+        border: 1px solid red;
+      
+    }
+    img{
+        width: 80%;
+    }
+    .img2{
+        margin-top: 2%;
+    }
+    
+    .display{
+        display: flex;
+    }
+
+    li{
+        display: inline;
+    }
+
+    div.none2{
+        display: none;
+    }
+
+    div.none{
+        display: inline;
+    }
+ 
+}
+
+@media only screen and (max-width: 375px){
+
+    
+    div.celularp{
+        display: none;
+    }
+
+    .mensagem{
+        display: block;
+    }
+
+}
+
+
