@@ -144,9 +144,12 @@ img{
 .men{
     display: none;
 }
-
+.pc{
+    display: none;
+}
 
 @media screen and (min-width: 1024px) {
+
     .celu{
         display: none;
     }
@@ -186,6 +189,29 @@ img{
         padding-right: 20px;
 
     }
+    
+    .bot{
+        list-style: none;
+        text-align: right;
+        font-size: 3vh;
+        padding-top: 20px;
+        padding-right: 20px;
+    
+    }
+    
+
+    
+    .of{
+    
+    display: block;
+
+    text-align: right;
+    font-size: 3vh;
+    padding-top: 20px;
+    padding-right: 20px;
+    
+    
+    }
     .conteudo{
         margin-top: 5%;
        
@@ -211,6 +237,12 @@ img{
         width: 100px;
         height: 100px;
     }
+    .logoi2{
+        width: 100px;
+        height: 100px;
+        margin-left: 70%;
+    }
+    
     img{
         height: 200px;
         width: 200px;
