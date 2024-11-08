@@ -147,6 +147,9 @@ img{
 
 
 @media screen and (min-width: 1024px) {
+    .celu{
+        display: none;
+    }
     .men{
         display: none;
     }
