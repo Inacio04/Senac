@@ -28,12 +28,39 @@ a:link{
 a:visited{
     color: white;
 }
-li{
+/*li{
   
     text-align: right;
     font-size: 3vh;
     padding-top: 20px;
     padding-right: 20px;
+}
+    */
+.bot{
+
+    text-align: right;
+    font-size: 3vh;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+
+.bot:focus-within{
+    .of{
+        display: block;
+    }
+}
+
+.of{
+
+display: block;
+display: none;
+text-align: right;
+font-size: 3vh;
+padding-top: 20px;
+padding-right: 20px;
+
+
 }
 .conteudo{
 
